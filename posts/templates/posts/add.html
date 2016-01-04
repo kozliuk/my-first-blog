@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+	{% block content %}
+<div class="row">
+	<div class="col-sm-6 col-sm-offset-4">
+	<form action="" method="POST">
+		
+		{{form.as_p}}
+		{% csrf_token %}
+		
+	<button type="Submit" class="col-sm-6 btn btn-primary">Save!</button>
+	</form>
+</div>
+</div>
+	{% endblock content %}

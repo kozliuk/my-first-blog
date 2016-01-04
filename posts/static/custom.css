@@ -1,0 +1,22 @@
+body{
+	background-image: url("back.jpg");
+	margin: 0px;
+}
+
+.box{
+	background: white;
+	opacity: 0.5;
+
+}
+
+.marg{
+	margin-top: 60px;
+}
+
+.marg100{
+	margin-top: 10px;
+}
+
+.outsided{
+	margin: 5px;
+}

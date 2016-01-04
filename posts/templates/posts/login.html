@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form action="" method="POST" class="col-sm-6 col-sm-offset-5">{% csrf_token %}
+	<h3>Login please</h3>
+	<p>User</p>
+	<div>
+
+		<input type="text" name="user">
+	</div>
+	<p>Login</p>
+	<div>
+		<input type="password" name="password">
+	</div>
+	<p></p>
+	<button type="Submit" class="col-sm-3 btn btn-primary">Go!</button>	
+
+</form>
+
+{% endblock content %}
